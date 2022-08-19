@@ -1,0 +1,67 @@
+
+.form-apt{
+    border: 1px solid black;
+    margin:0 auto;
+    text-align: center;
+    border-radius: 50px;
+    box-sizing: border-box;
+    height: min-content;
+    padding: 0px;
+    width: 280px;
+    background-color: rgb(4, 4, 4,0.2);
+    
+
+}
+
+h1{
+  
+    text-align: center;
+    padding-left: 0px;
+    font-style: italic;
+    font-size: 30px;
+    
+  }
+
+
+form {
+    border: 1px solid rgba(255, 255, 255, 0);
+    margin:0 auto;
+    text-align:center;
+    border-radius: 20px;
+    box-sizing: border-box;
+    height: min-content;
+    padding: 0px;
+    width: 280px;
+    font-family: 'Consolas';
+    background-color: rgba(196, 222, 210, 0.638);
+}
+
+
+
+.spacing{
+    margin-bottom: 10px;
+    display:flex;
+    justify-content: space-between;
+
+}
+
+
+input{
+    border-radius: 20px;
+    padding-left: 0px;
+}
+
+.li-apt{
+    list-style-type: none;
+}
+.btn-1 {
+    background: rgb(200, 121, 199);
+    background: linear-gradient(0deg, rgb(214, 166, 205) 0%, rgb(200, 129, 195) 100%);
+    border: none;
+  }
+  .btn-1:hover {
+     background: rgb(80, 154, 164);
+  background: linear-gradient(0deg, rgb(49, 50, 75) 0%, rgb(30, 49, 67) 100%);
+  }
+  
+

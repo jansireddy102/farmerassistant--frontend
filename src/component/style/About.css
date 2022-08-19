@@ -1,0 +1,85 @@
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.clear {
+    clear: both;
+}
+.container {
+    background: rgb(175, 88, 88);
+    max-width: 920px;
+    border-radius: 10%;
+    height: 480px;
+    margin: auto;
+    transform: translateY(15%);
+    box-shadow: 4px 4px 6px 0px #22222273;
+    
+}
+    
+    .details-container {
+        position: relative;
+        display: flex;
+    }
+        .avatar {
+            margin: 10px auto;
+            position: relative;
+            float: left;
+            padding: 20px;
+           
+        }
+        .about {
+            float: right;
+            padding: 20px;
+            margin-top: 50px;
+        }.name 
+                p {
+                    margin: 0;
+                    color: black;
+                    font-size: 1.1em;
+                    font-weight: bold;
+                }
+                h1 {
+                    color: yellow;
+                    font-weight: bold;
+                    margin:0;
+                    font-size: 3em;
+                }
+            
+            .about-content 
+                p {
+                    line-height: 1.6em;
+                }
+                
+            
+        
+    
+    .skills-container {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+        position: relative;
+        z-index:1;
+    }
+        button {
+            flex: 1;
+            padding: 10px;
+            margin: 5px;
+            border: none;
+                color: black;
+                padding: 10px;
+                background: yellow;
+                cursor: pointer;
+                font-weight: bold;
+                width: 250px;
+                height: 40px;
+                font-family: 'Nunito', sans-serif;
+                box-shadow: 1px 1px 10px 0px #2222222b;
+                transition: .2s all;
+        }:hover {
+                    box-shadow: 1px 1px 1px 0px #2222222b;
+                }
+                :focus, :active {
+                    outline: 0;
+                    box-shadow: 1px 1px 10px 0px #22222280;
+                }
